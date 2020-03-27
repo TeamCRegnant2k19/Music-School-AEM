@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Music School Project Content Package</comment>
+<entry key="createdBy">Lenovo</entry>
+<entry key="name">Music-School-Project.ui.apps</entry>
+<entry key="acHandling">merge_preserve</entry>
+<entry key="created">2019-09-26T20:19:41.485+0530</entry>
+<entry key="groupId">com.musicschool</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">my-packages</entry>
+<entry key="description">Maven Multimodule project for Music School Project.</entry>
+<entry key="artifactId">Music-School-Project.ui.apps</entry>
+<entry key="path">/etc/packages/my-packages/Music-School-Project.ui.apps.zip</entry>
+</properties>

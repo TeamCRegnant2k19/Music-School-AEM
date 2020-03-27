@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Vege Food Project Content Package</comment>
+<entry key="createdBy">Lenovo</entry>
+<entry key="name">Vege-Food-Project.ui.apps</entry>
+<entry key="acHandling">merge_preserve</entry>
+<entry key="created">2020-01-30T19:26:29.170+0530</entry>
+<entry key="groupId">com.vegfood</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">my-packages</entry>
+<entry key="description">Maven Multimodule project for Vege Food Project.</entry>
+<entry key="artifactId">Vege-Food-Project.ui.apps</entry>
+<entry key="path">/etc/packages/my-packages/Vege-Food-Project.ui.apps.zip</entry>
+</properties>
