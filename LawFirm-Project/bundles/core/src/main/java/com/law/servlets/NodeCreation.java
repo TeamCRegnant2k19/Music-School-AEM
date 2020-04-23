@@ -39,8 +39,8 @@ public class NodeCreation extends SlingSafeMethodsServlet {
 			
 			// Adding Child Node
 			Node child = node.addNode("sri", "nt:unstructured");
-			child.setProperty("potti", "babe");
-			child.setProperty("bajji", "bujji");
+			child.setProperty("prop1", "value1");
+			child.setProperty("prop2", "value2");
 			child.getSession().save();
 			
 			writer.println("\n Child Node: \n"+child.toString());			
@@ -48,7 +48,7 @@ public class NodeCreation extends SlingSafeMethodsServlet {
 			// Adding Properties to Already Exixting Node
 			Resource related = resource.getChild(path.concat("/jcr:content/related"));
 			ModifiableValueMap map = related.adaptTo(ModifiableValueMap.class);
-			map.put("bujji", "babe");
+			map.put("prop", "my value");
 			resource.getResourceResolver().commit();
 			
 			writer.println("\n Related Node: \n"+related.adaptTo(Node.class).toString());			
